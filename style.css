@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(235, 44%, 15%);
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: #1a3e61;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+    width: calc(100% - 50px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+}
+
+button {
+    padding: 10px;
+    background-color: hsl(180, 100%, 0%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+
+button:hover {
+    background-color: rgb(50, 51, 51);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.category-work {
+    background-color: #e6f7ff;
+}
+
+.category-personal {
+    background-color: #f9e6ff;
+}
